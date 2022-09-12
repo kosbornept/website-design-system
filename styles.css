@@ -1,0 +1,183 @@
+body {
+    background-color: blanchedalmond;
+}
+
+/* Title */
+#mainTitle {
+    padding: 2%;
+    padding-left: 0;
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* Articles */
+div.articleContainer {
+    width: 70%;
+    margin: 0 auto;
+}
+
+div h2.articleTitle {
+    text-align: start;
+    padding: 1%;
+    padding-left: 0;
+}
+
+/* Color Article */
+div.colorPanel {
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+    margin: 20px auto;
+    margin-top: 0;
+    min-height: 100px;
+}
+
+p.colorLabel {
+    margin: 0 auto;
+}
+
+/* Color Palette 1 */
+div.springGreen {
+    background-color: #31BA49;
+    color: #fff;
+}
+
+div.intensePink {
+    background-color: #BA31A3;
+    color: #fff;
+}
+
+/* Color Palette 2 */
+div.vibrantOrange {
+    background-color: #ED7212;
+    color: #fff;
+}
+
+div.calmBlue {
+    background-color: #128DED;
+    color: #fff;
+}
+
+/* Color Palette 3 */
+div.coolOrange {
+    background-color: #AA7755;
+    color: #fff;
+}
+
+div.confidentBlue {
+    background-color: #5588AA;
+    color: #fff;
+}
+
+/* Font Article */
+div.fontContainer {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.fontPanel {
+    display: inline-block;
+    width: 32%;
+}
+
+p.fontDescription {
+    font-size: 12px;
+    font-style: italic;
+    width: 50%;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Serif */
+
+div.serif {
+    font-family: 'Merriweather', serif;
+}
+
+div p.serifBold {
+    font-weight: bold;
+}
+
+div p.serifItalic {
+    font-style: italic;
+}
+
+/* Sans Serif */
+div.sansSerif {
+    font-family: 'Montserrat', sans-serif;
+}
+
+div p.sansSerifBold {
+    font-weight: bold;
+}
+
+div p.sansSerifItalic {
+    font-style: italic;
+}
+
+/* Display */
+div.displayFont {
+    font-family: 'Baloo 2', cursive;
+}
+
+div p.displayFontBold {
+    font-weight: bold;
+}
+
+div p.displayFontItalic {
+    font-style: italic;
+}
+
+/* Handwriting */
+div.handwriting {
+    font-family: 'Caveat', cursive;
+}
+
+div p.handwritingBold {
+    font-weight: bold;
+}
+
+div p.handwritingItalic {
+    font-style: italic;
+}
+
+/* Monospace */
+div.monospace {
+    font-family: 'Inconsolata', monospace;
+}
+
+div p.monospaceBold {
+    font-weight: bold;
+}
+
+div p.monospaceItalic {
+    font-style: italic;
+}
+
+/* Text Styles */
+
+h1.displayFont {
+    font-family: 'Baloo 2', cursive;
+}
+
+h2.serif {
+    font-family: 'Merriweather', serif;
+}
+
+h3.handwriting {
+    font-family: 'Caveat', cursive;
+}
+
+p.sansSerif {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Footer */
+
+footer {
+    font-size: smaller;
+    text-align: center;
+}
